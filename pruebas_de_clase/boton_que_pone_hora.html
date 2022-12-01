@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .td{
+           height: 400px;
+           width: 300px;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!Comentario de zona de script>
+<!Cambia el texto >
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Tonto el que lo lea JAJJAJA";
+    }
+</script>
+<! HACE OPERACIONES>
+<script>
+    document.getElementById("demo").innerHTML = 5 + 6 ;
+</script>
+<!Hace operaciones y las escribe>
+<script>
+    document.write(9 - 5);
+</script>
+<script>
+    document.write(9 + 5);
+</script>
+<script>
+    document.write(10 / 5);
+</script>
+<script>
+    document.write(10 * 5);
+</script>
+<!Finaliza zona de script>
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Enseña la fecha</button>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">
+Esconde el p con ID demo</button>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Desoculta el p con ID demo</button>
+
+<button type="button" onclick="myFunction()">No hay huevos</button>
+
+<p id="demo"></p>
+
+<br/>
+<!Terminamos el testeo de demo>
+<!Testeo de amoonguss esvolusiona y no hay exeggcute>
+<button onclick="document.getElementById('Pokachu').src='Amoonguss.png'">Evolve</button>
+
+<img id="Pokachu" src="foongus.png" style="width:300px">
+
+<button onclick="document.getElementById('Pokachu').src='foongus.png'">Devolve</button>
+
+<br/>
+
+    <table border="1">
+        <tr>
+            <td class="td"><button type="button" onclick="document.getElementById('egg').style.display='none'">
+            No hay Huevos</button></td>
+            <td class="td"><img id="egg" src="Exeggcute.png" style="width:300px"></td>
+            <td class="td"><button type="button" onclick="document.getElementById('egg').style.display='block'">Si hay huevos</button></td>
+        </tr>
+    </table>
+<br/>
+<script>
+    window.alert(Alerta);
+</script>
+</body>
+</html> 
