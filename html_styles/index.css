@@ -7,7 +7,7 @@
     width: 96%;
     height: 150px;
     padding: 0% 2%;
-    background-color: #0F76A0;
+    background-color: purple;
     background-image: url('');
 }
 #cabeceralogo > div {
@@ -24,9 +24,9 @@
     width: 96%;
     height: 50px;
     padding: 0% 2%;
-    background-color: #9FC8D9;
-    border-top: 1px solid #094660;
-    border-bottom: 1px solid #094660;
+    background-color: violet;
+    border-top: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
 }
 #menuprincipal > div {
     width: 960px;
@@ -39,12 +39,7 @@
     margin-right: 5px;
 }
 #menuprincipal li:hover {
- background-color: #6FACC6;
-}
-#menuprincipal a {
-    font: bold 18px Arial, sans-serif;
-    color: #333333;
-    text-decoration: none;
+ background-color: #be0aeb;
 }
 #listamenu > li {
     position: relative;
@@ -58,8 +53,8 @@
     position: absolute;
     top: 50px;
     left: 0px;
-    background-color: #9FC8D9;
-    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    background-color: #ec8df5;
+    box-shadow: 3px 3px 5px rgba(15, 15, 15, 0.7);
     border-radius: 0px 0px 5px 5px;
     list-style: none;
     z-index: 1000;
@@ -75,11 +70,11 @@
 }
 #listamenu a {
     font: bold 18px Arial, sans-serif;
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
 }
 #menuprincipal li:hover {
-    background-color: #6FACC6;
+    background-color: #720a75;
 }
 
 main {
@@ -154,17 +149,14 @@ figure img {
 #pielogo {
     width: 96%;
     padding: 2%;
-    background-color: #0F76A0;
+    background-color: #720a75;
 }
-#pielogo > div {
-    width: 960px;
-    margin: 0px auto;
-    background-color: #9FC8D9;
-    border-radius: 10px;
-}
-
 .seccionpie {
     float: left;
     width: 27.33%;
     padding: 3%;
+}
+#foot_page{
+    color: #ffffff;
+    font-size: 14pt;
 }
