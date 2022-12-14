@@ -162,4 +162,9 @@ figure img {
 }
 .parrafo{
     font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tandemaus{
+    font-size: 26pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
