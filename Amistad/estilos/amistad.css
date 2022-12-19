@@ -166,3 +166,10 @@ figure img {
     font-size: 26pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+th {
+    width: 235px;
+}
+td{
+    text-align: center;
+    align-items: center;
+}
