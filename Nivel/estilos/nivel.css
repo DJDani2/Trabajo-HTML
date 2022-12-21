@@ -80,6 +80,8 @@
 main {
     width: 96%;
     padding: 2%;
+    background-image: url(../img/nivel_background.png);
+    background-size: 1500px;
 }
 main > div {
     width: 960px;
