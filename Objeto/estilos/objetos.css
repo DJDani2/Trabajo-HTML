@@ -80,6 +80,8 @@
 main {
     width: 96%;
     padding: 2%;
+    background-image: url(../img/objeto_background.jpg_large);
+    background-size: 7500px;
 }
 main > div {
     width: 960px;

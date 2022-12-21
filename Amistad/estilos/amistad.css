@@ -78,6 +78,8 @@
 main {
     width: 96%;
     padding: 2%;
+    background-image: url(../img/amistad_background.png);
+    background-size: 3000px;
 }
 main > div {
     width: 960px;
